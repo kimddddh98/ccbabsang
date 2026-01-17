@@ -14,7 +14,7 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
       <div
         className={`relative h-60 w-full bg-[url(${product.image})] bg-gray-200 bg-cover sm:h-50`}
       >
-        {product.current > 0 && (
+        {product.current > 50 && (
           <span className="absolute top-2 right-2 rounded-full bg-red-600 px-2 py-0.5 text-sm font-semibold text-white">
             인기
           </span>
