@@ -7,6 +7,11 @@ import {
   QueryClient,
 } from '@tanstack/react-query'
 
+export const metadata = {
+  title: '척척밥상 - 밀키트',
+  description: '척척밥상의 다양한 밀키트를 확인해보세요',
+}
+
 export default function Home() {
   const queryClient = new QueryClient()
   queryClient.prefetchQuery({
